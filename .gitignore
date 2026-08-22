@@ -1,0 +1,21 @@
+# Data & Datasets
+data/
+
+# Model Checkpoints & Weights
+weights/
+*.pth
+outputs/
+confusion_matrix.png
+New folder/
+
+# Environments & Cache
+venv/
+.env/
+__pycache__/
+*.py[cod]
+
+# OS & IDE Settings
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
