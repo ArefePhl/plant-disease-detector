@@ -1,7 +1,9 @@
+# تشخیص بیماری گیاهان با ResNet-18
+
+
 <img width="1500" height="1200" alt="confusion_matrix" src="https://github.com/user-attachments/assets/e6a9d770-10cd-40b0-8269-5330a7fcfeb0" />
 <img width="1800" height="600" alt="training_curves" src="https://github.com/user-attachments/assets/9f752814-c50e-4d4d-93af-024beafad830" />
 <img width="900" height="900" alt="gradcam" src="https://github.com/user-attachments/assets/7db9a8be-2903-4ee4-b770-d47a052f94ed" />
-# تشخیص بیماری گیاهان با ResNet-18
 
 پروژه‌ای آموزشی برای طبقه‌بندی تصاویر گیاهان در **۳۸ کلاس** با PyTorch و
 Transfer Learning روی ResNet-18.
