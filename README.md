@@ -5,7 +5,7 @@
 <img width="1800" height="600" alt="training_curves" src="https://github.com/user-attachments/assets/9f752814-c50e-4d4d-93af-024beafad830" />
 <img width="900" height="900" alt="gradcam" src="https://github.com/user-attachments/assets/7db9a8be-2903-4ee4-b770-d47a052f94ed" />
 
-پروژه‌ای آموزشی برای طبقه‌بندی تصاویر گیاهان در **۳۸ کلاس** با PyTorch و
+پروژه‌ای برای طبقه‌بندی تصاویر گیاهان در **۳۸ کلاس** با PyTorch و
 Transfer Learning روی ResNet-18.
 
 ## وضعیت فعلی
@@ -38,8 +38,6 @@ test_project.py          تست smoke مدل و preprocessing
 classes.txt              فهرست ۳۸ کلاس، مطابق پوشه‌های داده
 ```
 
-اسکریپت‌های داخل `New folder` نسخه‌های آزمایشی قدیمی هستند و در مسیر رسمی
-استفاده نمی‌شوند.
 
 ## نصب
 
@@ -134,12 +132,3 @@ python gradcam.py --image path/to/leaf.jpg
 ```
 
 خروجی در `outputs/gradcam.png` ذخیره می‌شود.
-
-## نکات آموزشی مهم
-
-- آموزش و ارزیابی از preprocessing یکسان با استاندارد ImageNet استفاده می‌کنند.
-- checkpoint شامل وزن مدل، optimizer، epoch، کلاس‌ها و بهترین دقت validation است.
-- `classes.txt` برای مستندسازی است؛ منبع اصلی ترتیب کلاس‌ها در checkpoint و
-  `ImageFolder` ثبت می‌شود.
-- برای پژوهش جدی‌تر، عدم‌توازن کلاس‌ها، تصاویر تکراری و آزمون روی دیتاست بیرونی
-  باید بررسی شوند.
